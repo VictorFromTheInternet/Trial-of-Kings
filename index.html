@@ -4,20 +4,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Trial of Kings</title>
+  <style>
+    @import url('style/theme.css');
+    @import url('style/character-selection.css');
+  </style>
+  
+  <script defer src="animate.js"></script>
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+    <div class="background-image">  
+        <div class="character-selection-container">
+
+            <span>  
+              <h1>Trial of Kings</h1>
+            </span>
+          
+            <div class="character-carousel">
+              
+                  <div class="char-selection">
+                      <div class="char-title">
+                          <h1>Zoe</h1>
+                      </div>
+                      <div class="sprite">
+                        <canvas  id="zoe-canvas" width="300px" height="250px">
+                          <!--<img src="sprite-sheets/zoe-sprite-sheet.png" >-->
+                        </canvas>
+                      </div>
+                  </div>
+            
+                  <div class="char-selection">
+                      <div class="char-title">
+                          <h1>Victor</h1>
+                      </div>
+                      <div class="sprite">
+                        <canvas  id="victor-canvas" width="300px" height="250px">
+                          <!--<img src="sprite-sheets/victor-sprite-sheet.png">-->
+                            <div height=""> </div>
+                        </canvas>
+                      </div>
+                  </div>
+              
+            </div>
+
+          
+            <div class="choose-char-btn-container">
+              <span id="btn-zoe-select"><h3>Choose Character</h3></span>
+                          
+            </div>
+          
+        </div>
+      
+    </div>
+  
 
  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
+  https://edermunizz.itch.io/
+  https://www.youtube.com/watch?v=gm1QtePAYTM
+  https://www.youtube.com/watch?v=CY0HE277IBM
   -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
-</body>
+  
 
 </html>
